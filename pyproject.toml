@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "informatics-laboratories-9"
+version = "0.1.0"
+description = ""
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "informatics_laboratories_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
